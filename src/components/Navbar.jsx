@@ -13,11 +13,10 @@ export default function Navbar() {
         <div className="flex items-center">
           <h1 className="text-3xl font-bold mr-4 sm:text-4xl">HEROICFIT.</h1>
           <ul className="hidden md:flex ">
-            <li>home</li>
             <li>about</li>
-            <li>support</li>
-            <li>platforms</li>
-            <li>pricing</li>
+            <li>macro calculator</li>
+            <li>online training</li>
+    
           </ul>
         </div>
         <div className="hidden md:flex pr-4">
@@ -27,7 +26,7 @@ export default function Navbar() {
           <button className="px-4 py-2">Sign Up</button>
         </div>
         <div className="md:hidden" onClick={handleClick}>
-          {navMenu ? <MenuIcon className="w-12" /> : <XIcon className="w-5" />}
+          {navMenu ? <MenuIcon className="w-12" /> : <XIcon className="w-6" />}
           {/* // <MenuIcon className="w-12" /> */}
         </div>
       </div>

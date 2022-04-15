@@ -13,6 +13,9 @@ module.exports = {
       "2xl": "1536px",
       // extend: {},
     },
+    fontFamily: {
+      redhat: ["Red Hat Display", "sans-serif"],
+    },
   },
   plugins: [],
 };
