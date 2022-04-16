@@ -3,10 +3,12 @@ import React from "react";
 export default function About() {
   return (
     <div className="w-full my-32">
-      <div className="max-w-[1000px] mx-auto px-14">
-        <div className="text-center">
-          <p className="text-1xl font-light">THE HEROICFIT MISSION</p>
-          <h2 className="text-3xl font-semibold mt-2">
+      <div className="flex flex-col max-w-[1000px] mx-auto px-14">
+        <div className="text-center ">
+          <p className="inline-block font-light text-sm leading-[7px] bg-rose-200">
+            THE HEROICFIT MISSION
+          </p>
+          <h2 className="text-3xl font-bold mt-2">
             We're On A Mission To Deliver High-Quality Personal Training That's
             Accessible To Everyone
           </h2>

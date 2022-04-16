@@ -1,13 +1,12 @@
 import React from "react";
 import freeResourceRecipeImage from "../assets/recipe-pack-1.png";
-import freeResourceRecipeImageTwo from "../assets/recipe-pack-2.png";
 
 export default function FreeResources() {
   return (
     <div className="w-full  bg-zinc-200 flex flex-col justify-between">
       <div className="flex flex-col justify-center my-16 mx-auto px-14 max-w-[1000px]">
         <div className="text-center">
-          <p className="text-1xl font-light">
+          <p className="font-light text-sm">
             WANT TO START TRANSFORMING YOUR PHYSIQUE?
           </p>
           <h2 className="text-3xl font-semibold mt-2">
@@ -17,10 +16,12 @@ export default function FreeResources() {
           </h2>
         </div>
         <div className="flex flex-col md:flex-row justify-between">
-          <div className="flex flex-col items-left  mt-10 mb-4 mx-auto max-w-[400px]">
+          <div className="flex flex-col mt-10 mb-4 mx-auto max-w-[400px]">
             <img src={freeResourceRecipeImage} alt="/" className="mt-4"></img>
-            <p className="text-1xl font-light mt-6">
-              GET STARTED WITH MEAL PLANNING
+            <p className="mt-6">
+              <span className="inline-block font-light text-sm leading-[7px] bg-rose-200 ">
+                GET STARTED WITH MEAL PLANNING
+              </span>
             </p>
             <h2 className="text-3xl font-bold mt-1 mb-4">
               A Week Worth Of Quick Nutritious Recipes
@@ -29,8 +30,10 @@ export default function FreeResources() {
           </div>
           <div className="flex flex-col items-left mt-10 mb-4 mx-auto max-w-[400px] md:ml-16">
             <img src={freeResourceRecipeImage} alt="/" className="mt-4"></img>
-            <p className="text-1xl font-light mt-6">
-              GET STARTED WITH TRAINING
+            <p className="text-sm font-light mt-6">
+              <span className="inline-block font-light text-sm leading-[7px] bg-rose-200 ">
+                GET STARTED WITH TRAINING
+              </span>
             </p>
             <h2 className="text-3xl font-bold mt-1 mb-4">
               One Week Workout Programme
