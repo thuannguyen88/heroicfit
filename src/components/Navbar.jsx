@@ -13,10 +13,9 @@ export default function Navbar() {
         <div className="flex items-center">
           <h1 className="text-3xl font-bold mr-4 sm:text-4xl">HEROICFIT.</h1>
           <ul className="hidden md:flex ">
-            <li>about</li>
-            <li>macro calculator</li>
-            <li>online training</li>
-    
+            <li>Free Resources</li>
+            <li>Meal Plans</li>
+            <li>Online Training</li>
           </ul>
         </div>
         <div className="hidden md:flex pr-4">

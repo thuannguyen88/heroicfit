@@ -1,7 +1,7 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
-import Benefits from "./components/Benefits";
+import Benefits from "./components/FreeResources";
 
 function App() {
   return (
