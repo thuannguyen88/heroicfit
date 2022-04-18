@@ -11,34 +11,42 @@ export default function FreeResources() {
           </p>
           <h2 className="text-4xl font-bold mt-2 mb-14">
             Get Started With These{" "}
-            <span className=" underline underline-offset-2">Free</span>{" "}
+            <span className=" underline underline-offset-2 text-sky-400 text-3xl">
+              FREE
+            </span>{" "}
             Resources
           </h2>
         </div>
         <div className="flex flex-col md:flex-row justify-between">
           <div className="flex flex-col mt-10 mb-4 mx-auto max-w-[400px]">
-            <img src={freeResourceRecipeImage} alt="/" className="mt-4"></img>
-            <p className="mt-6">
-              <span className="inline-block font-light text-sm leading-[7px]  ">
-                GET STARTED WITH MEAL PLANNING
-              </span>
-            </p>
-            <h2 className="text-3xl font-bold mt-1 mb-4">
-              A Week Worth Of Quick Nutritious Recipes
+            <img
+              src={freeResourceRecipeImage}
+              alt="/"
+              className="mt-4 h-96"
+            ></img>
+            <h2 className="text-2xl font-bold mt-5">
+              15 Minute Recipe Pack & Meal Plan
             </h2>
-            <button className="py-4 px-7">GIVE IT TO ME !</button>
+            <p className="font-light mt-1">
+              download your recipe pack if you want recipes you can make in a
+              pinch, keep you full and on track with your physique goals
+            </p>
+            <button className="py-4 px-7 mt-5">GIVE IT TO ME !</button>
           </div>
           <div className="flex flex-col items-left mt-10 mb-4 mx-auto max-w-[400px] md:ml-16">
-            <img src={freeResourceRecipeImage} alt="/" className="mt-4"></img>
-            <p className="text-sm font-light mt-6">
-              <span className="inline-block font-light text-sm leading-[7px]  ">
-                GET STARTED WITH TRAINING
-              </span>
-            </p>
-            <h2 className="text-3xl font-bold mt-1 mb-4">
+            <img
+              src={freeResourceRecipeImage}
+              alt="/"
+              className="mt-4 h-96"
+            ></img>
+            <h2 className="text-2xl font-bold mt-5">
               One Week Workout Programme
             </h2>
-            <button className="py-4 px-7">YES, I'D LIKE THAT !</button>
+            <p className="font-light mt-1">
+              download your recipe pack if you want recipes you can make in a
+              pinch, keep you full and on track with your physique goals
+            </p>
+            <button className="py-4 px-7 mt-5">YES, I'D LIKE THAT !</button>
           </div>
         </div>
       </div>
