@@ -1,5 +1,5 @@
 import React from "react";
-import youtubeIcon from "../assets/instagram-icon.svg";
+
 
 export default function Footer() {
   return (
