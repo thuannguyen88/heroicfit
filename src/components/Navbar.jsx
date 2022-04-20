@@ -22,7 +22,7 @@ export default function Navbar() {
           <button className="border-none bg-transparent text-black mr-4">
             Sign In
           </button>
-          <button className="px-4 py-2">Sign Up</button>
+          <button className="px-4 py-2">Join Now</button>
         </div>
         <div className="md:hidden" onClick={handleClick}>
           {navMenu ? <MenuIcon className="w-12" /> : <XIcon className="w-6" />}
