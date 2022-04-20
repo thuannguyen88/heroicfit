@@ -16,12 +16,12 @@ export default function Products() {
             and skyrocket your business growth.
           </p>
         </div>
-        <div className="mt-3">
-          <div className="flex flex-col bg-gradient-to-br from-cyan-600 to-sky-900  max-w-[370px] h-[500px] mx-auto mt-4">
+        <div className="my-5">
+          <div className="flex flex-col bg-gradient-to-br from-cyan-600 to-sky-900  max-w-[370px] h-[500px] mx-auto">
             <div className=" p-12 flex h-[100%] justify-between flex-col text-center ">
               <div>
                 <h3 className="">HFK</h3>
-                <h2 className="text-3xl font-semibold mt-3 text-slate-200">
+                <h2 className="text-3xl font-semibold mt-3 text-slate-100">
                   HF KITCHEN
                 </h2>
               </div>
@@ -35,15 +35,23 @@ export default function Products() {
               </button>
             </div>
           </div>
-          <div>
-            <h3>icon</h3>
-            <h2>HF LIFT</h2>
-            <p>
-              Monthly workout programs to keep your workouts fresh, challenging
-              and those gains coming. The most affordable way to get expert
-              personal training.
-            </p>
-            <button>LEARN MORE</button>
+          <div className="flex flex-col bg-gradient-to-tr from-yellow-500 via-orange-500 to-pink-500  max-w-[370px] h-[500px] mx-auto mt-4">
+            <div className=" p-12 flex h-[100%] justify-between flex-col text-center ">
+              <div>
+                <h3 className="">HFL</h3>
+                <h2 className="text-3xl font-semibold mt-3 text-slate-100">
+                  HF LIFT
+                </h2>
+              </div>
+              <p className="text-slate-100">
+                Monthly workout programs to keep your workouts fresh,
+                challenging and those gains coming. The most affordable way to
+                get expert personal training.
+              </p>
+              <button className="bg-slate-200 text-sky-900 p-3 font-medium">
+                LEARN MORE
+              </button>
+            </div>
           </div>
         </div>
       </div>
