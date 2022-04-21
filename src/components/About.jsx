@@ -2,8 +2,8 @@ import React from "react";
 
 export default function About() {
   return (
-    <div className="w-full my-32">
-      <div className="flex flex-col max-w-[1000px] mx-auto px-14">
+    <div className="w-full h-[300px] my-32">
+      <div className="flex flex-col max-w-[1000px] mx-auto px-14 max-h-[300px]">
         <div className="text-center ">
           <p className="inline-block font-light text-sm leading-[7px] bg-rose-200">
             THE HEROICFIT MISSION
