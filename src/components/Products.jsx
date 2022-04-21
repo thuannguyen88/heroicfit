@@ -3,13 +3,13 @@ import React from "react";
 export default function Products() {
   return (
     <div className="bg-slate-200 w-full">
-      <div className="flex flex-col max-w-[1000px] mx-auto md:flex-row md:justify-around md:py-14">
-        <div className="flex flex-col md:pt-14 mt-14 md:max-w-[40%] p-4 md:max-h-[400px] ">
+      <div className="flex flex-col max-w-[1000px] mx-auto md:flex-row md:justify-around py-14">
+        <div className="flex flex-col md:pt-14 mt-14 md:max-w-[40%] p-4 md:max-h-[400px] px-14 md:px-0">
           <h1 className="text-sm font-light">RESOURCES</h1>
           <h3 className="text-3xl font-bold mt-3">
             Done-For-You Templates & Courses To Help You Grow
           </h3>
-          <p className="font-light mt-5">
+          <p className="font-light mt-5 mb-5">
             Essential content and design templates to help you every step of the
             way. Or prove yourself as the authority with a signature course.
             Everything you need to start working with clients on an expert level

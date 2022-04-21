@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 
 export default function Navbar() {
-  const [navMenu, setNavMenu] = useState(false);
+  const [menuClose, setMenuClose] = useState(true);
   const handleClick = () => {
-    setNavMenu(!navMenu);
+    setMenuClose(!menuClose);
   };
 
   return (
@@ -25,12 +25,12 @@ export default function Navbar() {
           <button className="px-4 py-2">Join Now</button>
         </div>
         <div className="md:hidden" onClick={handleClick}>
-          {navMenu ? <MenuIcon className="w-12" /> : <XIcon className="w-6" />}
+          {menuClose ? <MenuIcon className="w-12" /> : <XIcon className="w-6" />}
           {/* // <MenuIcon className="w-12" /> */}
         </div>
       </div>
 
-      <ul className={navMenu ? "hidden" : "absolute w-full px-8 bg-zinc-200"}>
+      <ul className={menuClose ? "hidden" : "absolute w-full px-8 bg-zinc-200"}>
         <li className="border-b-2 border-zinc-300 w-full">home</li>
         <li className="border-b-2 border-zinc-300 w-full">about</li>
         <li className="border-b-2 border-zinc-300 w-full">support</li>
