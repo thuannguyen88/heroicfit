@@ -6,9 +6,9 @@ export default function Hero() {
   return (
     <div className="w-full h-screen  flex flex-col justify-between px-8">
       <div className="flex flex-row max-w-[1240px] m-auto ">
-        <div className="flex flex-col justify-center py-8 pr-16 max-w-[700px]">
+        <div className="flex flex-col justify-center py-8 pr-16 max-w-[730px]">
           <p className="text-2xl font-light">online fitness training</p>
-          <h1 className="py-3 text-6xl md:text-5xl font-black ">
+          <h1 className="py-3 text-6xl  font-black tracking-wider md:leading-[1.05]">
             A NO-BS APPROACH TO{" "}
             <span className="text-sky-500">GETTING FIT</span> FOR LIFES’
             ADVENTURES
