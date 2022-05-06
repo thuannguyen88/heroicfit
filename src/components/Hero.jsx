@@ -6,13 +6,16 @@ export default function Hero() {
   return (
     <div className="w-full h-screen  flex flex-col justify-between px-8">
       <div className="flex flex-row max-w-[1240px] m-auto ">
-        <div className="flex flex-col justify-center   py-8">
-          <p className="text-4xl">online fitness training</p>
-          <h1 className="py-3 text-6xl md:text-7xl font-bold">
-            a no-bs approach to building your fitness
+        <div className="flex flex-col justify-center py-8 pr-16 max-w-[700px]">
+          <p className="text-2xl font-light">online fitness training</p>
+          <h1 className="py-3 text-6xl md:text-5xl font-black ">
+            A NO-BS APPROACH TO{" "}
+            <span className="text-sky-500">GETTING FIT</span> FOR LIFES’
+            ADVENTURES
           </h1>
-          <p className="text-1xl">
-            transform your physique with or without a gym membership
+          <p className="text-1xl font-extralight">
+            Taking out the guesswork of health and fitness to help you achieve
+            the body transformations you want.
           </p>
           <button className="py-4 px-7 w-[50%] md:max-w-[50%] my-6">
             Get Started

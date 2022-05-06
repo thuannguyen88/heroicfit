@@ -8,23 +8,23 @@ export default function Navbar() {
   };
 
   return (
-    <div className="w-screen h-[80px] z-10 bg-sky-100 fixed drop-shadow-lg">
-      <div className="px-2 flex justify-between items-center w-full h-full">
+    <div className="w-screen h-[80px] z-10 fixed drop-shadow-lg bg-white">
+      <div className="px-2 flex justify-between items-center max-w-[1240px] h-full mx-auto">
         <div className="flex items-center">
           <h1 className="text-3xl font-bold mr-4 sm:text-3xl">
             HEROIC<span className="text-sky-500">FIT</span>
           </h1>
-          <ul className="hidden md:flex font-semibold text-slate-600">
+          <ul className="hidden md:flex font-normal text-slate-600">
             <li>Home</li>
             <li>About</li>
             <li>Free Stuff</li>
           </ul>
         </div>
         <div className="hidden md:flex pr-4">
-          <button className="border-none bg-transparent text-slate-600 font-semibold mr-4">
-            Sign In
+          <button className="border-none bg-transparent text-slate-600 font-normal mr-4">
+            Log In
           </button>
-          <button className="px-4 py-2 font-semibold">Join Now</button>
+          <button className="px-4 py-2 font-normal">Join Now</button>
         </div>
         <div className="md:hidden" onClick={handleClick}>
           {menuClose ? (
