@@ -1,14 +1,14 @@
 import React from "react";
 
-import bgImg from "../assets/hero-image.jpg";
+import bgImg from "../assets/guy-girl-training.jpg";
 
 export default function Hero() {
   return (
     <div className="w-full h-screen  flex flex-col justify-between px-8">
       <div className="flex flex-row max-w-[1240px] m-auto ">
-        <div className="flex flex-col justify-center py-8 pr-16 max-w-[730px]">
+        <div className="flex flex-col justify-center py-8 pr-16 max-w-[700px]">
           <p className="text-2xl font-light">online fitness training</p>
-          <h1 className="py-3 text-6xl  font-black tracking-wider md:leading-[1.05]">
+          <h1 className="py-3 text-5xl  font-black tracking-wider md:leading-[1.05]">
             A NO-BS APPROACH TO{" "}
             <span className="text-sky-500">GETTING FIT</span> FOR LIFES’
             ADVENTURES
@@ -21,7 +21,7 @@ export default function Hero() {
             Get Started
           </button>
         </div>
-        <div className=" flex flex-col max-w-[33%]">
+        <div className=" flex flex-col max-w-[50%] justify-center">
           <img src={bgImg} alt="hero_image" className="hidden md:flex " />
         </div>
       </div>

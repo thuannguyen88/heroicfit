@@ -9,7 +9,7 @@ export default function Navbar() {
 
   return (
     <div className="w-screen h-[80px] z-10 fixed drop-shadow-lg bg-white">
-      <div className="px-2 flex justify-between items-center max-w-[1240px] h-full mx-auto">
+      <div className="flex items-center max-w-[1240px] h-full mx-auto justify-between">
         <div className="flex items-center">
           <h1 className="text-3xl font-bold mr-4 sm:text-3xl">
             HEROIC<span className="text-sky-500">FIT</span>
@@ -20,7 +20,7 @@ export default function Navbar() {
             <li>Free Stuff</li>
           </ul>
         </div>
-        <div className="hidden md:flex pr-4">
+        <div className="hidden md:flex">
           <button className="border-none bg-transparent text-slate-600 font-normal mr-4">
             Log In
           </button>
