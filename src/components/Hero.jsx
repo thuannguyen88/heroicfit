@@ -9,9 +9,9 @@ export default function Hero() {
   return (
     <div className="w-full h-screen  flex flex-col justify-between px-8">
       <div className="flex flex-row max-w-[1240px] m-auto h-[600px]">
-        <div className="flex flex-col justify-center py-8 pr-16 max-w-[700px]">
+        <div className="flex flex-col justify-center py-8 pr-14 max-w-[710px]">
           <p className="text-2xl font-light">online fitness training</p>
-          <h1 className="py-3 text-5xl  font-black tracking-wider md:leading-[1.05]">
+          <h1 className="py-3 text-5xl  font-black tracking-[0.07em] md:leading-[1.05]">
             A NO-BS APPROACH TO{" "}
             <span className="text-sky-500">GETTING FIT</span> FOR LIFES’
             ADVENTURES
@@ -20,7 +20,7 @@ export default function Hero() {
             Taking out the guesswork of health and fitness to help you achieve
             the body transformations you want.
           </p>
-          <button className="py-4 px-7 w-[50%] md:max-w-[50%] my-6">
+          <button className="py-4 px-7 w-[50%] md:max-w-[50%] mt-11">
             Get Started
           </button>
         </div>
