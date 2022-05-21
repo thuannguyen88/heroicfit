@@ -43,4 +43,4 @@ Building a responsive single page application with ReactJS and TailwindCSS. You 
 ### Reflection
 
 ## Live Site
-You can visit the live site [here](heroicfit.netlify.app/)
+You can visit the live site [here](heroicfit.netlify.app/.)
