@@ -10,14 +10,13 @@ Building a responsive single page application with ReactJS and TailwindCSS. You 
 - [Brief Application Demo](#brief-application-demo)
 - [Project Details](#project-details)<br>
     - [Team](#the-team)<br>
-    - [Task](#task)<br>
-    - [Understanding The Problem](#understanding-the-problem)
+    - [Problem](#problem)<br>
+    - [Who Is This For](#who-is-this-for)
     - [Ideation](#ideation)
-    - [Planning](#planning)
     - [Tech: Tools](#tech-tools)
     - [Features](#features)
-    - [Future Vision](#future-vision)
     - [Reflection](#reflection)
+    - [Future Vision](#future-vision)
 - [Live Site](#live-site)
 
 ## Brief Application Demo
@@ -26,21 +25,19 @@ Building a responsive single page application with ReactJS and TailwindCSS. You 
 
 ### The Team
 
-### Task
+### Problem
 
-### Understanding The Problem
+### Who Is This For
 
 ### Ideation
-
-### Planning
 
 ### Tech Tools
 
 ### Features
 
-### Future Vision
-
 ### Reflection
+
+### Future Vision
 
 ## Live Site
 You can visit the live site [here](https://heroicfit.netlify.app/)
