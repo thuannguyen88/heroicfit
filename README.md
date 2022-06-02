@@ -34,6 +34,7 @@ As a result client wants to create a landing page that can provide free resource
 On the tech side, I wanted more experience with developing appealing UX/UI and learning tailwind CSS.
 
 ### Who Is This For
+Users who want access to world class personal training affordably so they can look, feel and achieve the physique and fitness they want.
 
 ### Planning
 
