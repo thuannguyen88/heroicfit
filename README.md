@@ -36,6 +36,8 @@ On the tech side, I wanted more experience with developing appealing UX/UI and l
 ### Who Is This For
 Users who want access to world class personal training affordably so they can look, feel and achieve the physique and fitness they want.
 
+The landing page specifically, is targeted to let users experience personal training level expertise for free to get a taste of the results you could achieve.
+
 ### Planning
 
 ### Tech Tools
