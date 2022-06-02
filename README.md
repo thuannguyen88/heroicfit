@@ -1,6 +1,5 @@
 ![heroicfit_cover](https://user-images.githubusercontent.com/91844917/169297139-0243b54b-29fb-4639-afde-f99673a95fbb.png)
 
-
 # Learning Tailwind CSS with React
 
 *IN PROGRESS*
@@ -22,6 +21,10 @@ Building a responsive single page application with ReactJS and TailwindCSS. You 
 - [Live Site](#live-site)
 
 ## Brief Application Demo
+
+Below is a recording of the Figma prototype <br>
+
+https://user-images.githubusercontent.com/91844917/171655629-09faddb9-7eb9-494d-9049-8299984a3291.mp4
 
 ## Project Details
 
