@@ -21,10 +21,10 @@ export default function Navbar() {
           </ul>
         </div>
         <div className="hidden md:flex">
-          <button className="border-none bg-transparent text-slate-600 font-normal mr-4">
+          {/* <button className="border-none bg-transparent text-slate-600 font-normal mr-4">
             Log In
-          </button>
-          <button className="px-4 py-2 font-normal">Join Now</button>
+          </button> */}
+          <button className="px-4 py-2 font-normal">Get Started</button>
         </div>
         <div className="md:hidden" onClick={handleClick}>
           {menuClose ? (
