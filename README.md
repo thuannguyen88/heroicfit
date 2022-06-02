@@ -46,7 +46,7 @@ The landing page specifically, is targeted to let users experience personal trai
 ### Planning
 Looked at a lot of designs for landing pages on dribbble for fitness sites and out of industry to get ideas which I collected in a Figma file. Then looked at competitor online personal training companies and what they were doing for their landing pages and added to the Figma file. 
 
-From here I created a low fidelity wireframe which I then used to practise using tailwind CSS. After doing all bare bones section for landing page, went bacjk to Figma to rework a high fidelity wireframe.
+From here I created a low fidelity wireframe which I then used to practise using tailwind CSS. After doing all bare bones section for landing page, went bacjk to Figma to rework a high fidelity wireframe which you can view in the brief video application demo above
 
 ### Tech Tools
 
