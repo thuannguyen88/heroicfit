@@ -45,6 +45,11 @@ From here I created a low fidelity wireframe which I then used to practise using
 
 ### Tech Tools
 
+| Front-end   | Tools        |
+| ----------- | ------------ |
+| React       | Figma        |
+| TailwindCSS | Dribbble     |
+|             |              |
 
 ### Features
 
