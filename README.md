@@ -39,8 +39,12 @@ Users who want access to world class personal training affordably so they can lo
 The landing page specifically, is targeted to let users experience personal training level expertise for free to get a taste of the results you could achieve.
 
 ### Planning
+Looked at a lot of designs for landing pages on dribbble for fitness sites and out of industry to get ideas which I collected in a Figma file. Then looked at competitor online personal training companies and what they were doing for their landing pages and added to the Figma file. 
+
+From here I created a low fidelity wireframe which I then used to practise using tailwind CSS. After doing all bare bones section for landing page, went bacjk to Figma to rework a high fidelity wireframe.
 
 ### Tech Tools
+
 
 ### Features
 
