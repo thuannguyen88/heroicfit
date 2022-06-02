@@ -3,6 +3,8 @@
 
 # Learning Tailwind CSS with React
 
+*IN PROGRESS*
+
 Building a responsive single page application with ReactJS and TailwindCSS. You can visit the live site [here](https://heroicfit.netlify.app/)
 
 ## Table of Contents
@@ -22,8 +24,6 @@ Building a responsive single page application with ReactJS and TailwindCSS. You 
 ## Brief Application Demo
 
 ## Project Details
-
-*In Progress*
 
 ### The Team
 This was a solo project
