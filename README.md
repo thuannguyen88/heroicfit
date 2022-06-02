@@ -12,7 +12,7 @@ Building a responsive single page application with ReactJS and TailwindCSS. You 
     - [Team](#the-team)<br>
     - [Problem](#problem)<br>
     - [Who Is This For](#who-is-this-for)
-    - [Ideation](#ideation)
+    - [Planning](#planning)
     - [Tech: Tools](#tech-tools)
     - [Features](#features)
     - [Reflection](#reflection)
@@ -29,7 +29,7 @@ Building a responsive single page application with ReactJS and TailwindCSS. You 
 
 ### Who Is This For
 
-### Ideation
+### Planning
 
 ### Tech Tools
 
