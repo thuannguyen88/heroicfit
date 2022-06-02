@@ -27,6 +27,9 @@ Building a responsive single page application with ReactJS and TailwindCSS. You 
 This was a solo project
 
 ### Problem
+An in person personal trainer who because of the pandemic originally had to take their business online, and help people get fit without necessarily being physically there but producing just as effective results, if not more. 
+
+As a result client wants to create a landing page that can provide free resources that help people with training and meal planning for people who are searching for possibly a personal trainer or expertise from a personal trainer that is effective and can give them an insight into the results they could achieve and what it might be like to work with them.
 
 ### Who Is This For
 
