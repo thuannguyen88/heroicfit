@@ -24,6 +24,7 @@ Building a responsive single page application with ReactJS and TailwindCSS. You 
 ## Project Details
 
 ### The Team
+This was a solo project
 
 ### Problem
 
