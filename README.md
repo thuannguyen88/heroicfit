@@ -31,6 +31,8 @@ An in person personal trainer who because of the pandemic originally had to take
 
 As a result client wants to create a landing page that can provide free resources that help people with training and meal planning for people who are searching for possibly a personal trainer or expertise from a personal trainer that is effective and can give them an insight into the results they could achieve and what it might be like to work with them.
 
+On the tech side, I wanted more experience with developing appealing UX/UI and learning tailwind CSS.
+
 ### Who Is This For
 
 ### Planning
