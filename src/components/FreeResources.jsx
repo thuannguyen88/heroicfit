@@ -1,5 +1,6 @@
 import React from "react";
 import freeResourceRecipeImage from "../assets/recipe-pack-1.png";
+import yellowUnderline from "../assets/yellow-underline.svg";
 
 export default function FreeResources() {
   return (
@@ -11,10 +12,12 @@ export default function FreeResources() {
           </p>
           <h2 className="text-4xl font-bold mt-2 mb-14">
             Get Started With These{" "}
-            <span className=" underline underline-offset-2 text-sky-400 text-3xl">
-              FREE
-            </span>{" "}
-            Resources
+            <span className="relative">
+              Free Resources
+              <div className="absolute bottom-[-12px] left-0">
+                <img src={yellowUnderline} alt="/"></img>
+              </div>
+            </span>
           </h2>
         </div>
         <div className="flex flex-col md:flex-row justify-between">
