@@ -48,13 +48,15 @@ Looked at a lot of designs for landing pages on dribbble for fitness sites and o
 
 From here I created a low fidelity wireframe which I then used to practise using tailwind CSS. After doing all bare bones section for landing page, went bacjk to Figma to rework a high fidelity wireframe which you can view in the brief video application demo above
 
+Foal for the MVP is to build the high fidelity landing page using tailwind CSS, then integrate with an email marketing service for free resource opt ins.
+
 ### Tech Tools
 
 | Front-end   | Tools        |
 | ----------- | ------------ |
 | React       | Figma        |
 | TailwindCSS | Dribbble     |
-|             |              |
+|             | Mailerlite   |
 
 ### Features
 
