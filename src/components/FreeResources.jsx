@@ -23,7 +23,7 @@ export default function FreeResources() {
       </div>
       <div className="w-full">
         <div className="bg-cyan-500 py-10 w-[60%]">
-          <div className="flex flex-col justify-center my-16 mx-auto px-14 max-w-[700px]">
+          <div className="flex flex-col justify-center my-16 px-10 mx-auto max-w-[567px]">
             <h3>Snag Your Free Meal Plan</h3>
             <p>
               Download your free recipe meal plan today and get started on easy
