@@ -29,7 +29,7 @@ https://user-images.githubusercontent.com/91844917/171655629-09faddb9-7eb9-494d-
 ## Project Details
 
 ### The Team
-This was a solo project
+This was a solo project.
 
 ### Problem
 Building awareness for online personal training services and products to help people get fit.
@@ -46,7 +46,7 @@ The landing page specifically, is targeted to let users experience personal trai
 ### Planning
 Looked at a lot of designs for landing pages on dribbble for fitness sites and out of industry to get ideas which I collected in a Figma file. Then looked at competitor online personal training companies and what they were doing for their landing pages and added to the Figma file. 
 
-From here I created a low fidelity wireframe which I then used to practise using tailwind CSS. After doing all bare bones section for landing page, went bacjk to Figma to rework a high fidelity wireframe which you can view in the brief video application demo above
+From here I created a low fidelity wireframe which I then used to practise using tailwind CSS. After doing all bare bones section for landing page, went bacjk to Figma to rework a high fidelity wireframe which you can view in the brief video application demo above.
 
 Goal for the MVP is to build the high fidelity landing page using tailwind CSS, then integrate with an email marketing service for free resource opt ins.
 
