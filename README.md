@@ -32,9 +32,9 @@ https://user-images.githubusercontent.com/91844917/171655629-09faddb9-7eb9-494d-
 This was a solo project.
 
 ### Problem
-Building awareness for online personal training services and products to help people get fit.
+Building awareness for online personal training services and products to help people get fit by Heroicfit.
 
-As a result, client wants to a landing page that can provide free resources that help people with training and meal planning that gives them an insight into the results they could achieve.
+As a result, client wants a landing page with the primary goal to provide free resources that help people with training and meal planning.
 
 On the tech side, I wanted more experience with developing appealing UX/UI and learning tailwind CSS.
 
