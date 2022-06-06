@@ -1,5 +1,4 @@
 import React from "react";
-import freeResourceRecipeImage from "../assets/recipe-pack-1.png";
 import yellowUnderline from "../assets/yellow-underline.svg";
 import mealPlanImageOne from "../assets/1.svg";
 import mealPlanImageTwo from "../assets/2.svg";
@@ -27,7 +26,7 @@ export default function FreeResources() {
         </div>
       </div>
       <div className="w-full flex flex-row">
-        <div className="bg-cyan-500 py-10 w-[60%]">
+        <div className="bg-cyan-500 py-10 w-[100%] sm:w-[60%]">
           <div className="flex flex-col justify-center my-16 px-10 mx-auto max-w-[567px]">
             <h3>Snag Your Free Meal Plan</h3>
             <p>
@@ -48,20 +47,24 @@ export default function FreeResources() {
             </div>
           </div>
         </div>
-        <div className="w-[27%]  relative">
-          <div className="absolute top-4 left-0 ml-[-100px]">
-            <img src={mealPlanImageOne} alt="/" className="h-[20rem]"></img>
+        <div className="w-[0] sm:w-[48%] flex justify-center my-auto lg:my-0 lg:w-[27%] lg:relative">
+          <div className=" hidden sm:inline-block lg:absolute lg:top-4 lg:left-0 ml-[0] lg:ml-[-70px]">
+            <img
+              src={mealPlanImageOne}
+              alt="/"
+              className="sm:h-[30rem] lg:h-[20rem]"
+            ></img>
           </div>
-          <div className="absolute bottom-0 right-10 mb-[-25px]">
+          <div className="absolute bottom-0 right-10 mb-[-25px] hidden lg:inline-block">
             <img src={mealPlanImageTwo} alt="/" className="h-[23rem] "></img>
           </div>
-          <div className="absolute top-0 right-[8rem]">
+          <div className="absolute top-0 right-[8rem] hidden lg:inline-block">
             <img src={mealPlanImageThree} alt="/" className="h-[10rem] "></img>
           </div>
-          <div className="absolute bottom-5 left-0 ml-[-30px]">
+          <div className="absolute bottom-5 left-0 ml-[-30px] hidden lg:inline-block">
             <img src={mealPlanImageFour} alt="/" className="h-[10rem] "></img>
           </div>
-          <div className="absolute top-5 right-0 ml-[-30px]">
+          <div className="absolute top-5 right-0 ml-[-30px] hidden lg:inline-block">
             <img src={mealPlanImageFive} alt="/" className="h-[10rem] "></img>
           </div>
         </div>
