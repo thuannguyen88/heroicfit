@@ -7,8 +7,8 @@ import bgImgDots from "../assets/hero-image-dots.svg";
 
 export default function Hero() {
   return (
-    <div className="w-screen ">
-      <div className="flex md:flex-row max-w-[1240px] m-auto min-h-[600px] px-5 pt-[50px]">
+    <div className="w-screen h-screen flex flex-col ">
+      <div className="flex md:flex-row max-w-[1240px] m-auto min-h-[600px] px-5 ">
         <div className="flex flex-col justify-center py-8 max-w-[710px] text-center md:text-left align-middle">
           <p className="text-2xl font-light">online fitness training</p>
           <h1 className="py-3 text-4xl md:text-5xl  font-black tracking-[0.07em] md:leading-[1.05]">
