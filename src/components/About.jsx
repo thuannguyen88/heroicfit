@@ -12,10 +12,13 @@ export default function About() {
           <p className="inline-block font-light text-sm ">
             THE HEROICFIT MISSION
           </p>
-          <h2 className="text-3xl font-bold mt-2">
-            We're On A Mission To Deliver High-Quality Personal Training That's
-            Accessible To Everyone
-          </h2>
+          <div>
+            <h2 className="text-3xl font-bold mt-2 border-l-[10px] border-sky-500 pl-3">
+              We're On A Mission To Deliver High-Quality Personal Training
+              That's Accessible To Everyone
+            </h2>
+          </div>
+
           <p className="text-1xl mt-6">
             We help people achieve the body transformation results they want. No
             matter where you are in the world, our tailored online program gives
