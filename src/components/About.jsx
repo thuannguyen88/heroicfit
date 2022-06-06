@@ -1,14 +1,14 @@
 import React from "react";
-import tyrePush from "../assets/guy-tyre-push.svg";
+import tyrePush from "../assets/guy-tyre-push.jpg";
 
 export default function About() {
   return (
     <div className="w-screen h-[42rem] my-[10rem] flex ">
-      <div className="flex flex-row max-w-[1240px] mx-auto  px-14 my-auto ">
-        <div className="w-[50%]">
+      <div className="flex flex-row max-w-[1240px] mx-auto  px-14 my-auto justify-between">
+        <div className="hidden md:flex w-[45%]">
           <img src={tyrePush} alt="/" className="h-[600px]"></img>
         </div>
-        <div className="flex flex-col justify-center w-[50%] text-left ">
+        <div className="flex flex-col justify-center w-[100%] md:w-[45%] text-left ">
           <p className="inline-block font-light text-sm ">
             THE HEROICFIT MISSION
           </p>

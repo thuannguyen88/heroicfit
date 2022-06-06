@@ -7,9 +7,9 @@ import bgImgDots from "../assets/hero-image-dots.svg";
 
 export default function Hero() {
   return (
-    <div className="w-screen h-screen  flex flex-col justify-between ">
-      <div className="flex flex-row max-w-[1240px] m-auto h-[600px]">
-        <div className="flex flex-col justify-center py-8 max-w-[710px]">
+    <div className="w-screen  flex flex-col justify-between ">
+      <div className="flex md:flex-row max-w-[1240px] m-auto min-h-[600px] ">
+        <div className="flex flex-col justify-center py-8 max-w-[710px] text-center md:text-left align-middle">
           <p className="text-2xl font-light">online fitness training</p>
           <h1 className="py-3 text-5xl  font-black tracking-[0.07em] md:leading-[1.05]">
             A NO-BS APPROACH TO{" "}
@@ -20,7 +20,7 @@ export default function Hero() {
             Taking out the guesswork of health and fitness to help you achieve
             the body transformations you want.
           </p>
-          <button className="py-4 px-7 w-[50%] md:max-w-[50%] mt-11">
+          <button className="py-4 px-7 w-[50%] md:max-w-[50%] mt-11 mx-auto">
             Get Started
           </button>
         </div>
