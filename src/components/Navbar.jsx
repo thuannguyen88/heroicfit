@@ -9,7 +9,7 @@ export default function Navbar() {
 
   return (
     <div className="w-screen h-[80px] z-10 fixed drop-shadow-lg bg-white">
-      <div className=" flex items-center max-w-[1240px] h-full mx-auto justify-between ">
+      <div className=" flex items-center max-w-[1240px] h-full mx-auto justify-between px-5">
         <div className="flex items-center">
           <h1 className="text-3xl font-bold mr-4 sm:text-3xl">
             HEROIC<span className="text-sky-500">FIT</span>

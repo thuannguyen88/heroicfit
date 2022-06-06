@@ -8,7 +8,7 @@ import Products from "./components/Products";
 
 function App() {
   return (
-    <>
+    <div>
       <Navbar />
       <Hero />
       <Resources />
@@ -16,7 +16,7 @@ function App() {
       <Testimonial />
       <Products />
       <Footer />
-    </>
+    </div>
   );
 }
 
