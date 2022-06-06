@@ -1,6 +1,11 @@
 import React from "react";
 import freeResourceRecipeImage from "../assets/recipe-pack-1.png";
 import yellowUnderline from "../assets/yellow-underline.svg";
+import mealPlanImageOne from "../assets/1.svg";
+import mealPlanImageTwo from "../assets/2.svg";
+import mealPlanImageThree from "../assets/4.svg";
+import mealPlanImageFour from "../assets/27.svg";
+import mealPlanImageFive from "../assets/5.svg";
 
 export default function FreeResources() {
   return (
@@ -21,7 +26,7 @@ export default function FreeResources() {
           </h2>
         </div>
       </div>
-      <div className="w-full">
+      <div className="w-full flex flex-row">
         <div className="bg-cyan-500 py-10 w-[60%]">
           <div className="flex flex-col justify-center my-16 px-10 mx-auto max-w-[567px]">
             <h3>Snag Your Free Meal Plan</h3>
@@ -43,37 +48,22 @@ export default function FreeResources() {
             </div>
           </div>
         </div>
-      </div>
-      <div className="flex flex-col md:flex-row justify-between">
-        <div className="flex flex-col mt-10 mb-4 mx-auto max-w-[400px]">
-          <img
-            src={freeResourceRecipeImage}
-            alt="/"
-            className="mt-4 h-96"
-          ></img>
-          <h2 className="text-2xl font-bold mt-5">
-            15 Minute Recipe Pack & Meal Plan
-          </h2>
-          <p className="font-light mt-1">
-            download your recipe pack if you want recipes you can make in a
-            pinch, keep you full and on track with your physique goals
-          </p>
-          <button className="py-4 px-7 mt-5">GIVE IT TO ME !</button>
-        </div>
-        <div className="flex flex-col items-left mt-10 mb-4 mx-auto max-w-[400px] md:ml-16">
-          <img
-            src={freeResourceRecipeImage}
-            alt="/"
-            className="mt-4 h-96"
-          ></img>
-          <h2 className="text-2xl font-bold mt-5">
-            One Week Workout Programme
-          </h2>
-          <p className="font-light mt-1">
-            download your recipe pack if you want recipes you can make in a
-            pinch, keep you full and on track with your physique goals
-          </p>
-          <button className="py-4 px-7 mt-5">YES, I'D LIKE THAT !</button>
+        <div className="w-[27%]  relative">
+          <div className="absolute top-4 left-0 ml-[-100px]">
+            <img src={mealPlanImageOne} alt="/" className="h-[20rem]"></img>
+          </div>
+          <div className="absolute bottom-0 right-10 mb-[-25px]">
+            <img src={mealPlanImageTwo} alt="/" className="h-[23rem] "></img>
+          </div>
+          <div className="absolute top-0 right-[8rem]">
+            <img src={mealPlanImageThree} alt="/" className="h-[10rem] "></img>
+          </div>
+          <div className="absolute bottom-5 left-0 ml-[-30px]">
+            <img src={mealPlanImageFour} alt="/" className="h-[10rem] "></img>
+          </div>
+          <div className="absolute top-5 right-0 ml-[-30px]">
+            <img src={mealPlanImageFive} alt="/" className="h-[10rem] "></img>
+          </div>
         </div>
       </div>
     </div>
