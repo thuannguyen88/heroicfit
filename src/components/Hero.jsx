@@ -7,7 +7,7 @@ import bgImgDots from "../assets/hero-image-dots.svg";
 
 export default function Hero() {
   return (
-    <div className="w-full h-screen  flex flex-col justify-between px-10">
+    <div className="w-full h-screen  flex flex-col justify-between ">
       <div className="flex flex-row max-w-[1240px] m-auto h-[600px]">
         <div className="flex flex-col justify-center py-8 pr-14 max-w-[710px]">
           <p className="text-2xl font-light">online fitness training</p>
