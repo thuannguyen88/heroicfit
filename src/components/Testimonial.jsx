@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Testimonial() {
   return (
-    <div className="bg-slate-300 w-full flex ">
+    <div className="bg-slate-300 w-screen flex ">
       <div className="flex flex-col mx-auto my-16 max-w-[1000px]">
         <p className=" text-sm font-light text-center leading-[7px]  ">
           <span className="inline-block bg-rose-200">TESTIMONIAL</span>

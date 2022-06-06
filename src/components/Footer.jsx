@@ -1,9 +1,8 @@
 import React from "react";
 
-
 export default function Footer() {
   return (
-    <div className=" w-full flex bg-slate-700">
+    <div className=" w-screen flex bg-slate-700">
       <div className="flex flex-col justify-between md:flex-row my-10 mx-5 md:w-[1000px] md:h-[200px] md:mx-auto">
         <div className="text-white text-2xl font-medium h-full">HEROICFIT.</div>
         <div className="md:flex md:flex-col justify-start h-full">

@@ -3,7 +3,7 @@ import tyrePush from "../assets/guy-tyre-push.svg";
 
 export default function About() {
   return (
-    <div className="w-full h-[42rem] my-[10rem] flex ">
+    <div className="w-screen h-[42rem] my-[10rem] flex ">
       <div className="flex flex-row max-w-[1240px] mx-auto  px-14 my-auto ">
         <div className="w-[50%]">
           <img src={tyrePush} alt="/" className="h-[600px]"></img>

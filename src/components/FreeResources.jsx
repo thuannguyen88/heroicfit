@@ -8,7 +8,7 @@ import mealPlanImageFive from "../assets/5.svg";
 
 export default function FreeResources() {
   return (
-    <div className="w-full  flex flex-col justify-between">
+    <div className="w-screen  flex flex-col justify-between">
       <div className="flex flex-col justify-center my-16 mx-auto px-14 max-w-[1000px]">
         <div className="text-center">
           <p className="font-light text-sm">

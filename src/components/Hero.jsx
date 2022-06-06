@@ -7,9 +7,9 @@ import bgImgDots from "../assets/hero-image-dots.svg";
 
 export default function Hero() {
   return (
-    <div className="w-full h-screen  flex flex-col justify-between ">
+    <div className="w-screen h-screen  flex flex-col justify-between ">
       <div className="flex flex-row max-w-[1240px] m-auto h-[600px]">
-        <div className="flex flex-col justify-center py-8 pr-14 max-w-[710px]">
+        <div className="flex flex-col justify-center py-8 max-w-[710px]">
           <p className="text-2xl font-light">online fitness training</p>
           <h1 className="py-3 text-5xl  font-black tracking-[0.07em] md:leading-[1.05]">
             A NO-BS APPROACH TO{" "}

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Products() {
   return (
-    <div className="bg-slate-200 w-full">
+    <div className="bg-slate-200 w-screen">
       <div className="flex flex-col max-w-[1000px] mx-auto md:flex-row md:justify-around py-14">
         <div className="flex flex-col md:pt-14 mt-14 md:max-w-[40%] p-4 md:max-h-[400px] px-14 md:px-0">
           <h1 className="text-sm font-light">RESOURCES</h1>
