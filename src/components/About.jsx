@@ -1,11 +1,15 @@
 import React from "react";
+import tyrePush from "../assets/guy-tyre-push.svg";
 
 export default function About() {
   return (
-    <div className="w-full h-[300px] my-32">
-      <div className="flex flex-col max-w-[1000px] mx-auto px-14 max-h-[300px]">
-        <div className="text-center ">
-          <p className="inline-block font-light text-sm leading-[7px] bg-rose-200">
+    <div className="w-full h-[42rem] my-[10rem] flex ">
+      <div className="flex flex-row max-w-[1240px] mx-auto  px-14 my-auto ">
+        <div className="w-[50%]">
+          <img src={tyrePush} alt="/" className="h-[600px]"></img>
+        </div>
+        <div className="flex flex-col justify-center w-[50%] text-left ">
+          <p className="inline-block font-light text-sm ">
             THE HEROICFIT MISSION
           </p>
           <h2 className="text-3xl font-bold mt-2">
