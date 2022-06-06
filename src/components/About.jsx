@@ -3,8 +3,8 @@ import tyrePush from "../assets/guy-tyre-push.jpg";
 
 export default function About() {
   return (
-    <div className="w-screen h-[42rem] my-[10rem] flex ">
-      <div className="flex flex-row max-w-[1240px] mx-auto  px-5 my-auto justify-between">
+    <div className="w-screen md:h-[42rem] my-[6rem] md:my-[10rem] flex ">
+      <div className="flex flex-row max-w-[1240px] mx-auto  px-10 my-auto justify-between">
         <div className="hidden md:flex w-[45%]">
           <img src={tyrePush} alt="/" className="h-[600px]"></img>
         </div>
@@ -13,7 +13,7 @@ export default function About() {
             THE HEROICFIT MISSION
           </p>
           <div>
-            <h2 className="text-3xl font-bold mt-2 border-l-[10px] border-sky-500 pl-3">
+            <h2 className="text-2xl md:text-3xl font-bold mt-2 border-l-[10px] border-sky-500 pl-3">
               We're On A Mission To Deliver High-Quality Personal Training
               That's Accessible To Everyone
             </h2>

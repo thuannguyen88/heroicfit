@@ -9,7 +9,7 @@ import mealPlanImageFive from "../assets/5.svg";
 export default function FreeResources() {
   return (
     <div className="w-screen  flex flex-col justify-between">
-      <div className="flex flex-col justify-center my-16 mx-auto px-5 max-w-[1000px]">
+      <div className="flex flex-col justify-center my-16 mx-auto px-10 max-w-[1000px]">
         <div className="text-center">
           <p className="font-light text-sm">
             WANT TO START TRANSFORMING YOUR PHYSIQUE?
@@ -26,24 +26,33 @@ export default function FreeResources() {
         </div>
       </div>
       <div className="w-full flex flex-row">
-        <div className="bg-cyan-500 py-10 w-[100%] sm:w-[60%] px-5">
-          <div className="flex flex-col justify-center my-16  mx-auto max-w-[567px]">
-            <h3>Snag Your Free Meal Plan</h3>
-            <p>
+        <div className="bg-cyan-100 py-10 w-[100%] sm:w-[60%] px-10 rounded-lg">
+          <div className="flex flex-col justify-center my-16  mx-auto max-w-[567px] ">
+            <h3 className="text-3xl  text-slate-800 font-bold">
+              Snag Your Free Client Meal Plan
+            </h3>
+            <p className="mt-5 mb-3 text-slate-700">
               Download your free recipe meal plan today and get started on easy
               to make recipes that taste great and support your physique goals
             </p>
-            <ul className="list-disc list-inside">
-              <li>x 3 one day meal plans</li>
-              <li>breakfast, lunch, dinner and snacks</li>
-              <li>
-                includes my fitness pal barcode for keeping accurate nutrition
-                log
+            <ul className="list-disc list-inside text-slate-700 ">
+              <li className="py-1">
+                Discover <strong>15 delicious and healthy recipes</strong>
+              </li>
+              <li className="py-1">
+                Sample <strong>one week meal planner</strong>
+              </li>
+              <li className="py-1">
+                <strong>Shopping list</strong> for weeks worth of meals
+              </li>
+              <li className="py-1">
+                Easily <strong>log your meals </strong>to MyFitnessPal by
+                scanning recipe barcode{" "}
               </li>
             </ul>
-            <div>
-              <button className="mr-2">I'M HIGH PROTEIN</button>
-              <button>I'M PLANT BASED</button>
+            <div className="flex justify-center my-5">
+              <button className="mr-10 py-4 px-7">I'M HIGH PROTEIN</button>
+              <button className="py-4 px-7">I'M PLANT BASED</button>
             </div>
           </div>
         </div>
