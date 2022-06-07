@@ -57,6 +57,7 @@ Goal for the MVP is to build the high fidelity landing page using tailwind CSS, 
 | React       | Figma        |
 | TailwindCSS | Dribbble     |
 |             | Mailchimp API|
+|             | Netlify      |
 
 ### Features
 
