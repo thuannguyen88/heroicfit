@@ -56,11 +56,15 @@ Goal for the MVP is to build the high fidelity landing page using tailwind CSS, 
 | ----------- | ------------ |
 | React       | Figma        |
 | TailwindCSS | Dribbble     |
-|             | Mailerlite   |
+|             | Mailchimp API|
 
 ### Features
 
 ### Reflection
+- Figma is a great tool for prototypes and hi-fi designs 
+- It's really important to understand the problem you're trying to solve, so you have more clarity on the solution you're building for
+- Really like tailwindCSS, requires knowing css first but docs are really well written and easy to implement. I like that it helped me think in mobile first design with its media queries setup.
+- Figuring out how to give users free resources through email, might go down the route of using netlify serverless functions with mailchimp api 
 
 ### Future Vision
 
