@@ -6,7 +6,7 @@ import mealPlanImageThree from "../assets/4.svg";
 import mealPlanImageFour from "../assets/27.svg";
 import mealPlanImageFive from "../assets/5.svg";
 
-export default function FreeResources() {
+export default function FreeResources({ showModal, setShowModal, openModal }) {
   return (
     <div className="w-screen  flex flex-col justify-between">
       <div className="flex flex-col justify-center my-16 mx-auto px-10 max-w-[1000px]">
@@ -51,7 +51,10 @@ export default function FreeResources() {
               </li>
             </ul>
             <div className="flex justify-center my-5">
-              <button className="mr-10 sm:py-4 sm:px-7 py-2 px-3 font-semibold">
+              <button
+                onClick={openModal}
+                className="mr-10 sm:py-4 sm:px-7 py-2 px-3 font-semibold"
+              >
                 I'M HIGH PROTEIN
               </button>
               <button className="sm:py-4 sm:px-7 py-2 px-3 bg-transparent text-sky-500 font-semibold">
