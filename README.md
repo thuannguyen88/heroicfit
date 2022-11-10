@@ -48,7 +48,7 @@ Looked at a lot of designs for landing pages on dribbble for fitness sites and o
 
 From here I created a low fidelity wireframe which I then used to practise using tailwind CSS. After doing all bare bones section for landing page, went bacjk to Figma to rework a high fidelity wireframe which you can view in the brief video application demo above.
 
-Goal for the MVP is to build the high fidelity landing page using tailwind CSS, then integrate with an email marketing service for free resource opt ins.
+Goal for the MVP is to build the high fidelity landing page using tailwind CSS.
 
 ### Tech Tools
 
@@ -56,7 +56,6 @@ Goal for the MVP is to build the high fidelity landing page using tailwind CSS, 
 | ----------- | ------------ |
 | React       | Figma        |
 | TailwindCSS | Dribbble     |
-|             | Mailchimp API|
 |             | Netlify      |
 
 ### Features
@@ -65,7 +64,6 @@ Goal for the MVP is to build the high fidelity landing page using tailwind CSS, 
 - Figma is a great tool for prototypes and hi-fi designs 
 - It's really important to understand the problem you're trying to solve, so you have more clarity on the solution you're building for
 - Really like tailwindCSS, requires knowing css first but docs are really well written and easy to implement. I like that it helped me think in mobile first design with its media queries setup.
-- Figuring out how to give users free resources through email, might go down the route of using netlify serverless functions with mailchimp api 
 
 ### Future Vision
 
